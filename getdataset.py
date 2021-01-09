@@ -20,7 +20,7 @@ except:
     #count += 50
     print("Directory Exist")
 
-print("\n [INFO] Initializing face capture. Look atthe camera and wait ...")
+print("\n [INFO] Initializing face capture. Look at1the camera and wait ...")
 # Initialize individual sampling face count
 
 count = 0
