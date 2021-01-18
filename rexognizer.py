@@ -36,7 +36,7 @@ while True:
             id = str(name_data['Family']['names'][id])
             confidence = "  {0}%".format(round(100 - confidence))
         else:
-            cv2.rectangle(img, (x,y), (x+w,y+h), (0,0,255), 2)
+            cv2.rectangle(img, (x,y), (x+w,y+h), (0,0,255), 1)
             id = "unknown"
             confidence = "  {0}%".format(round(100 - confidence))
         
